@@ -1,5 +1,7 @@
 import "./App.css";
 
+import "./utils/_base.scss";
+
 import Navigation from "./components/Navbar";
 
 function App() {

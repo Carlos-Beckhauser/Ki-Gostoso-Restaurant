@@ -1,3 +1,42 @@
 .navbar {
-  color: red;
+  background-color: rgb(202, 7, 7);
+  margin: 0;
+  padding: 0;
+
+  .navbar-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-items: center;
+    align-items: center;
+
+    img {
+      scale: 1;
+    }
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    line-height: 1.9rem;
+    color: white;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 5rem;
+
+    li {
+      font-size: 2rem;
+      list-style: none;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+    }
+
+    li:hover {
+      cursor: pointer;
+      color: rgb(230, 226, 9);
+    }
+  }
 }
