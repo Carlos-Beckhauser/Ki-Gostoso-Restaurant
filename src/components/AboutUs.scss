@@ -1,8 +1,35 @@
 .aboutus {
-  background-color: rgb(192, 189, 0);
-  height: 50vh;
+  background-color: rgb(231, 227, 3);
+  height: 80vh;
   position: relative;
-  h1 {
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+
+  .about-img {
     margin: 0;
+    padding: 0;
+    margin: 6.9rem 10rem;
+    background-color: rgb(248, 223, 223);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    img {
+      height: 500px;
+      width: 600px;
+    }
+  }
+  .about-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    margin-right: 5rem;
+
+    p {
+      text-align: justify;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
   }
 }

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-bg">
         <img src={bgImg3} alt="BackGround  3 from KiGostoso Restaurant" />
         <div className="hero-title">
-          <h1>Venha experimentar nosso menu cheio de variedades</h1>
+          <h1>Experimente nosso menu cheio de variedades</h1>
           <button>Cardápio</button>
         </div>
       </div>
