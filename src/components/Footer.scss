@@ -1,0 +1,36 @@
+#footer {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 1fr 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.dev_signature {
+  background-color: rgb(187, 2, 2);
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-logo {
+  width: fit-content;
+  display: grid;
+  justify-items: center;
+  h1 {
+    font-size: 1.2rem;
+    color: rgb(240, 240, 240);
+    line-height: 1.3rem;
+  }
+}

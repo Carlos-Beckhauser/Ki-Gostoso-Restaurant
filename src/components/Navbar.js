@@ -16,9 +16,16 @@ const Navigation = () => (
       </div>
       <div>
         <ul className="nav-menu">
-          <li>Sobre nós</li>
-          <li>Cardápio</li>
-          <li>Contato</li>
+          <li>
+            <a href="#aboutus">Sobre nós</a>
+          </li>
+
+          <li>
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
         </ul>
       </div>
     </div>

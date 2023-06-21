@@ -26,15 +26,16 @@
   .nav-menu {
     display: flex;
     gap: 5rem;
+    list-style: none;
 
-    li {
-      font-size: 2rem;
-      list-style: none;
+    a {
+      font-size: 1.7rem;
+      text-decoration: none;
       text-transform: uppercase;
       color: rgb(255, 255, 255);
     }
 
-    li:hover {
+    a:hover {
       cursor: pointer;
       color: rgb(230, 226, 9);
     }

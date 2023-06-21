@@ -1,21 +1,38 @@
-.aboutus {
-  background-color: rgb(231, 227, 3);
-  height: 80vh;
+#aboutus {
+  background-color: rgb(245, 229, 6);
+  position: relative;
+  z-index: 2;
+}
+
+.Title_aboutus {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+  padding-top: 5rem;
+
+  h1 {
+    margin: 0;
+    z-index: 2;
+  }
+}
+
+.Container_aboutus {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 4fr);
+  z-index: 2;
 
   .about-img {
     margin: 0;
     padding: 0;
-    margin: 6.9rem 10rem;
-    background-color: rgb(248, 223, 223);
+    margin: 6.9rem 9rem;
+    background-color: rgb(124, 124, 124);
     display: grid;
     align-items: center;
     justify-items: center;
 
     img {
-      height: 500px;
+      height: 490px;
       width: 600px;
     }
   }

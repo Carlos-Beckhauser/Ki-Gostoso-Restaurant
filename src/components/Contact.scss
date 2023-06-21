@@ -1,0 +1,53 @@
+#contact {
+  background-color: rgb(245, 229, 6);
+  margin: 0;
+  padding: 0;
+}
+
+.Contact-title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.Container_contact {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.info_contact {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-content: center;
+  padding-left: 6rem;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    padding: 0.4rem 0;
+  }
+
+  .info_contact-phone {
+    display: flex;
+    gap: 5px;
+  }
+
+  .info_contact-location {
+    display: flex;
+    gap: 5px;
+  }
+}
